@@ -2,33 +2,77 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
+    <link href="css/mystyles.css" rel="stylesheet" type="text/css">
     <title>Wikipedia, the free encyclopedia</title>
   </head>
 
   <body>
 
-    <!--Left Sidebar -->
-    <div class="container">
-      <aside>
-      </aside>
-    </div>
-
-    <!--End Left Sidebar -->
-
-    <!--Container for Main Box-->
-
-      <!--1st Nav -->
-
-      <!--End 1st Nav-->
+    <!--1st Nav -->
+    <nav>
+      <ul>
+        <li><b class="glyphicon glyphicon-user"></b>Not logged in</li>
+        <li>Talk</li>
+        <li>Contributions</li>
+        <li>Create account</li>
+        <li>Log in</li>
+      </ul>
+    </nav>
+    <!--End 1st Nav -->
 
 
-      <!--2nd Nav-->
-
-      <!--End 2nd Nav-->
+    <!--Container for Main Box -->
+    <div class="container main-box">
+      <!--Left Sidebar -->
+      <div id="sidebar">
+        <aside>
+          <div class="wiki-logo">
+            <img src="images/logo.png">
+          </div>
+          <div class="list-items-aside">
+            <ul>
+              <li><a href="#">Main page</a></li>
+              <li><a href="#">Contents</a></li>
+              <li><a href="#">Featured content</a></li>
+              <li><a href="#">Current events</a></li>
+              <li><a href="#">Random article</a></li>
+              <li><a href="#">Donate to Wikipedia</a></li>
+              <li><a href="#">Wikipedia store</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <!--End Left Sidebar -->
+      <!--2nd Nav -->
+      <div id="navbar">
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#mainPage" aria-controls="mainPage" role="tab" data-toggle="tab">Main Page</a></li>
+          <li role="presentation"><a href="#talk" aria-controls="talk" role="tab" data-toggle="tab">Talk</a></li>
+          <li role="presentation" class="navbar-right"><a href="#viewHistory" aria-controls="viewHistory" role="tab" data-toggle="tab">View history</a></li>
+          <li role="presentation" class="navbar-right"><a href="#viewSource" aria-controls="viewSource" role="tab" data-toggle="tab">View source</a></li>
+          <li role="presentation" class="navbar-right"><a href="#read" aria-controls="read" role="tab" data-toggle="tab">Read</a></li>
+        </ul>
+      <!--End 2nd Nav -->
 
 
       <!--Header-->
-
+      <div id="header">
+        <h2>Welcome to Wikipedia</h2>
+        <p>the free encyclopedia that anyone can edit.</p>
+        <p>5,181,051 articles in English</p>
+        <ul>
+          <li>Arts</li>
+          <li>Biography</li>
+          <li>Geography</li>
+          <li>History</li>
+          <li>Mathematics</li>
+          <li>Science</li>
+          <li>Society</li>
+          <li>Technology</li>
+          <li><strong>All portals</strong></li>
+        </ul>
+      </div>
       <!--End Header -->
 
 
@@ -61,6 +105,7 @@
 
       <!--End Wikipedia's Sister Projects-->
 
+    </div>
     <!--End Container for Main box-->
 
 

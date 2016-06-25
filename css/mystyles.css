@@ -1,0 +1,37 @@
+aside h1, aside h2 {
+  font-family: 'Playfair Display SC', serif;
+}
+.main-box {
+  position: relative;
+}
+#navbar {
+  width: 1100px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+#sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: -50px;
+  margin-top: 20px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+}
+nav {
+  width: 400px;
+  float: right;
+}
+aside ul {
+  list-style-type: none;
+  margin-right: 30px;
+}
+#sidebar .list-items-aside {
+  margin-left: -20px;
+  margin-top: 40px;
+}
