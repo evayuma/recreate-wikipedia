@@ -1,7 +1,7 @@
 aside h1, aside h2 {
   font-family: 'Playfair Display SC', serif;
 }
-.main-box {
+#mainBox {
   position: relative;
 }
 #navbar {
@@ -14,7 +14,7 @@ aside h1, aside h2 {
   top: 0;
   bottom: 0;
   left: 0;
-  margin-left: -50px;
+  margin-left: 10px;
   margin-top: 20px;
 }
 nav ul {
@@ -32,6 +32,9 @@ aside ul {
   margin-right: 30px;
 }
 #sidebar .list-items-aside {
-  margin-left: -20px;
+  margin-left: 10px;
   margin-top: 40px;
+}
+.nav, .nav-tabs {
+  border: 1px solid blue;
 }
