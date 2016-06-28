@@ -35,6 +35,9 @@ aside ul {
   margin-left: 10px;
   margin-top: 40px;
 }
-.nav, .nav-tabs {
-  border: 1px solid blue;
+ul.tab {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }

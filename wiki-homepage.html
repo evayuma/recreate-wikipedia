@@ -46,14 +46,17 @@
     <div class="container" id="#mainBox">
 
       <!--2nd Nav -->
-      <div id="navbar">
-        <ul class="nav nav-tabs" role="tablist">
-          <li role="presentation" class="active"><a href="#mainPage" aria-controls="mainPage" role="tab" data-toggle="tab">Main Page</a></li>
-          <li role="presentation"><a href="#talk" aria-controls="talk" role="tab" data-toggle="tab">Talk</a></li>
-          <li role="presentation" class="navbar-right"><a href="#viewHistory" aria-controls="viewHistory" role="tab" data-toggle="tab">View history</a></li>
-          <li role="presentation" class="navbar-right"><a href="#viewSource" aria-controls="viewSource" role="tab" data-toggle="tab">View source</a></li>
-          <li role="presentation" class="navbar-right"><a href="#read" aria-controls="read" role="tab" data-toggle="tab">Read</a></li>
+      <div id="mainNav">
+        <ul class="tab">
+          <li><a href="#" class="tablinks" onclick="openPage(event, 'mainPage')">Main Page</a></li>
+          <li><a href="#" class="tablinks" onclick="openPage(event, 'Talk')"</a></li>
         </ul>
+
+        <div id="mainPage" class="tabcontent">
+        </div>
+
+        <div id="Talk" class="tabcontent">
+        </div>
       <!--End 2nd Nav -->
 
 
